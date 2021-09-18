@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js DOM manipulation</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div>
+      <form class="form__example" name="myForm" id="myForm">
+        <label for="txt_name">Nombre</label>
+        <input
+          type="text"
+          id="txt_name"
+          name="txt_name"
+          class="form__example--inputs"
+          minlength="5"
+          maxlength="10"
+        />
+        <label for="txt_lastname">Apellidos</label>
+        <input
+          type="text"
+          id="txt_lastname"
+          name="txt_lastname"
+          class="form__example--inputs"
+          required
+        />
+        <input type="submit" value="Guardar" class="form__example--button" />
+      </form>
+    </div>
+    <div class="yard" id="yardOfCards"></div>
+
+    <template>
+      <div class="card">
+        <div class="div__header">Mueve la cartita</div>
+        <p class="name">name</p>
+        <p class="lastname">lastname</p>
+      </div>
+    </template>
+  </body>
+  <script src="/dom.js"></script>
+</html>

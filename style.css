@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+}
+.card {
+  background-color: #f1f1f1;
+  text-align: center;
+  border: 1px solid #d3d3d3;
+  width: 15rem;
+
+  position: absolute;
+  z-index: 9;
+}
+
+.div__header {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196f3;
+  color: #fff;
+}
+.yard {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  background-color: #e6f0f8;
+}
+.form__example {
+  display: grid;
+  gap: 15px;
+  width: 25rem;
+  margin: 10px 10px;
+}
+.form__example--inputs {
+  height: 1.5rem;
+  border: 0.5px solid #646464;
+}
+.form__example--button {
+  height: 3rem;
+  font-weight: 600;
+  background-color: #ac2a2a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
